@@ -58,9 +58,9 @@ export default function MobileNav() {
                         <IoMenu className = "text-2xl text-white"/>
                     </Button>
                 </DrawerTrigger>
-                <DrawerOverlay className='sm:hidden'/>
+                <DrawerOverlay className='sm:hidden '/>
                 <DrawerContent  className='sm:hidden'>
-                    <div className="max-h-[90vh] overflow-auto default-scroll">
+                    <div className="min-h-[85vh]  max-h-[90vh] overflow-auto default-scroll">
                         <SideLayout isMobile/>
                     </div>
 

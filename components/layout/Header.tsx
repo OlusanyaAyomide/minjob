@@ -25,7 +25,7 @@ const {asPath} = useRouter()
 const description  = asPath.replace(/\//g, '')
 
     return (
-        <div className={`fixed shadow-sm  bg-white dark:bg-background padding-x dark:shadow-none  dark:border-b py-1 sm:py-2 flex-center top-0 right-0 w-full  transition-all duration-500 ${!isExpanded?"w-full lg:w-[calc(100%-80px)]":"lg:w-[calc(100%-260px)]"}`}>
+        <div className={`fixed shadow-sm z-40 bg-white dark:bg-background padding-x dark:shadow-none  dark:border-b py-1 sm:py-2 flex-center top-0 right-0 w-full  transition-all duration-500 ${!isExpanded?"w-full lg:w-[calc(100%-80px)]":"lg:w-[calc(100%-260px)]"}`}>
             <Sheet>
                 <SheetTrigger asChild  className='max-sm:hidden lg:hidden shrink-0 cursor-pointer hover:bg-accent px-1 py-1'>
                     <Button variant={"ghost"} size={"icon"}>
