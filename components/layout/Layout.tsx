@@ -14,7 +14,7 @@ export default function Layout({children,className}:{children:React.ReactNode,cl
                 <SideLayout canExpand/>
             </div>
         </div>
-        <div className={"grow transition-all min-h-[200vh] pt-[62px] duration-500 padding-x"}>
+        <div className={"grow transition-all pb-10 min-h-[100vh] pt-[62px] duration-500 padding-x"}>
             <Header/>
             {children}
             <MobileNav/>

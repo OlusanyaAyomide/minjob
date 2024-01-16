@@ -104,4 +104,7 @@
   .radiate-card{
     @apply w-full py-3 bg-card dark:bg-deep-black rounded-md shadow-md transition-all duration-300 px-2 hover:shadow-lg dark:animate-radiate
   }
+  .text-shadow {
+      text-shadow: 0 0 20px var(--j-blue);
+  }
 }

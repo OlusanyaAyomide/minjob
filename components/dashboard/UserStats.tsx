@@ -9,7 +9,7 @@ import UserLevel from './UserLevel';
 export default function UserStats() {
   return (
   <>
-    <div>
+    <div className='sm:mt-5'>
         <h1 className="font-medium   text-xl sm:text-[22px] md:text-[24px]">Hi, Adesegun</h1>
         <h1 className="text-[13px]">
             <span>You have</span>
@@ -19,7 +19,7 @@ export default function UserStats() {
         </h1>
     </div>
     <div className="mt-3 flex flex-wrap items-stretch">
-        <div className='flex flex-wrap max-xl:grow xl:w-8/12'>
+        <div className='flex flex-wrap max-xl:grow xl:w-8/12 xl:pr-1'>
             <DashBoardCard Icon={IoMdWallet} description='Available Balance' className='sm:pr-2'  text='$29'/>
             <DashBoardCard Icon={BiSolidCoinStack} description='Total Tokens' style='text-yellow-500 text-2xl' className='sm:pl-2'  text='40'/>
             <ImpressionInfo className='w-full'/>
