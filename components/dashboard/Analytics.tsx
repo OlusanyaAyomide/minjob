@@ -47,7 +47,7 @@ export default function Analytics() {
     ]
     }
   return (
-    <div className='mt-8'>
+    <div className='mt-16'>
         <h1 className="text-center sm:text-base mb-5 font-medium">Analytics</h1>
         <div className="mt-3 flex items-stretch flex-wrap">
             <div className="w-full  overflow-hidden xl:w-8/12 xl:pr-1">
